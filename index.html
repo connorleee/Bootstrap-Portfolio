@@ -9,21 +9,27 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <div class="container">
-            <!-- Nav bar row -->
-            <div class="row">
-                <!-- Name -->
-                <div class="col-md-3">
-                    <h1>Connor Lee</h1>                    
-                </div>
+        <!-- Nav bar -->
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand">Connor Lee</a>
+                
                 <!-- Nav Links -->
-                <div class="col-md-3">
-                    <a href="index.html">About</a> |
-                    <a href="portfolio.html">Portfolio</a> |
-                    <a href="contact.html">Contact</a>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
                 </div>
-            </div>
-
+            </div>      
+        </nav>
+        
+        <div class="container">
             <!-- header row -->
             <div class="row">
                 <div class="col-md-12">
@@ -34,7 +40,7 @@
             <!-- main section row -->
             <div class="row">
                 <div class="col-md-12">
-                    <img class="float-left img-thumbnail" src="images/DSC01820.jpg" alt="Picture of me" width="200px">
+                    <img class="float-left img-thumbnail" src="images/DSC01820.jpg" alt="Picture of me" width="180px">
                     <p class="bio-body">After being in the construction industry for 3 years as a Heavy Civil construction contractor, I am looking to learn an entirely new skill and jump into a more technology driven indutry that promotes fast paced innovation. Within the construction industry, I've had the opportunity to develop a drone program with my company. Drones can be used to create 3D models of a site for quantity tracking purposes to use as backup for payment.</p>
                     <p>A few of the construction projects I've worked on include:</p>
                         <ul>
@@ -50,13 +56,13 @@
                         </ul>
                 </div>
             </div> 
+        </div>
 
-            <!-- footer row -->
-            <div class="row">
-                <div class="col-md-12">
-                    <footer>copyright &copy;</footer>
-                </div>
-            </div>        
+        <!-- footer row -->
+        <div class="navbar navbar-light bg-light navbar-fixed-bottom">
+            <div class="container justify-content-center">
+                <p class="navbar-text">copyright &copy;</p>
+            </div>       
         </div>
     </body>
 </html>

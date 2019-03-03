@@ -9,20 +9,27 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <div class="container">
-            <!-- Nav bar row -->
-            <div class="row">
-                <!-- Name -->
-                <div class="col-md-3">
-                    <h1>Connor Lee</h1>                    
-                </div>
+        <!-- Nav bar -->
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand">Connor Lee</a>
+                
                 <!-- Nav Links -->
-                <div class="col-md-3">
-                    <a href="index.html">About</a> |
-                    <a href="portfolio.html">Portfolio</a> |
-                    <a href="contact.html">Contact</a>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
                 </div>
-            </div>
+            </div>      
+        </nav>
+        
+        <div class="container">
 
             <!-- header row -->
             <div class="row">
@@ -56,13 +63,13 @@
                     Placeholder 6
                 </div>               
             </div>
-            
-            <!-- footer row -->
-            <div class="row">
-                <div class="col-md-12">
-                    <footer>copyright &copy;</footer>
-                </div>
-            </div>   
+        </div>  
+
+        <!-- footer row -->
+        <div class="navbar navbar-light bg-light navbar-fixed-bottom">
+            <div class="container justify-content-center">
+                <p class="navbar-text">copyright &copy;</p>
+            </div>       
         </div>
     </body>
 </html>
