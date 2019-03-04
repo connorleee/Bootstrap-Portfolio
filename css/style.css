@@ -1,0 +1,44 @@
+.image-label{
+    position: absolute;
+    bottom: 5px;
+}
+
+.bg-teal{
+    background-color: #4aaaa5;
+}
+
+.text-teal{
+    color: #4aaaa5;
+}
+
+.text-reg{
+    color: #777777;
+}
+
+.bg-main{
+    background-color: #ffffff;
+}
+
+.border-header{
+    border-color: #cccccc;
+}
+
+.bg-footer{
+    background-color: #666666;
+}
+
+.border-teal{
+    border-color: #4aaaa5 !important;
+}
+
+.border-main{
+    border-color: #dddddd;
+}
+
+.border-10{
+    border-width: 10px !important;
+}
+
+body{
+    background-image: url("../images/old_wall.png");
+}
