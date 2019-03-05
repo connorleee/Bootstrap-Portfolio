@@ -1,3 +1,7 @@
+h1, h2, h3, .navbar-brand{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
 .image-label{
     position: absolute;
     bottom: 5px;
