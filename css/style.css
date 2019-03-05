@@ -15,6 +15,11 @@
     color: #777777;
 }
 
+.text-footer{
+    color: #cccccc;
+    font-size: .75rem;
+}
+
 .bg-main{
     background-color: #ffffff;
 }
@@ -28,17 +33,22 @@
 }
 
 .border-teal{
-    border-color: #4aaaa5 !important;
+    border-color: #4aaaa5;
 }
 
 .border-main{
     border-color: #dddddd;
 }
 
-.border-10{
-    border-width: 10px !important;
+.border-footer{
+    border-width: 1rem 0rem 0rem 0rem;
+    border-style: solid; 
 }
 
 body{
     background-image: url("../images/old_wall.png");
+}
+
+.hr-thickness{
+    border-top: .15rem solid rgba(0,0,0,.1);
 }
